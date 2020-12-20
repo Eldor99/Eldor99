@@ -12,7 +12,7 @@ a {
 .navbar {
   display: flex;
   justify-content: flex-end;
-  padding: 30px 57px;
+  padding: 16px 57px;
 }
 
 .navbar ul {
@@ -63,4 +63,27 @@ button a {
   background-color: #ff6464;
   color: white;
   font-size: 20px;
+}
+
+/* FeaturedWorks */
+.fworks {
+  background-color: #edf7fa;
+  padding: 30px 145px;
+}
+
+span {
+  background-color: #edf7fa;
+  font-size: 22px;
+}
+
+.card {
+  display: flex;
+}
+
+.card img {
+  width: 240px;
+  height: 180px;
+  border-radius: 5%;
+  padding: 10px 10px;
+  padding-right: 54px;
 }
